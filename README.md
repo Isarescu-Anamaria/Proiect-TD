@@ -36,5 +36,7 @@ Layout-ul este adaptat pentru a fi responsiv, folosind flexbox și grid pentru a
 ![image](https://github.com/Isarescu-Anamaria/Proiect-TD/assets/126576843/07e792bd-533e-4c53-b7cb-33e50f9a4834)
 ![image](https://github.com/Isarescu-Anamaria/Proiect-TD/assets/126576843/5d03dedd-d562-4556-9301-243ffe81ea07)
 ![image](https://github.com/Isarescu-Anamaria/Proiect-TD/assets/126576843/1517b37e-5e75-4e99-8759-f70e6c0eeac2)
+![image](https://github.com/Isarescu-Anamaria/Proiect-TD/assets/126576843/6f03c2f8-5ac8-40ba-9104-98df9a85528a)
+
 
 
