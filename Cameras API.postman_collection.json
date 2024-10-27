@@ -1,0 +1,1031 @@
+{
+	"info": {
+		"_postman_id": "ec406df2-fccb-4d62-bcff-af0a41a4da96",
+		"name": "Cameras API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39067464"
+	},
+	"item": [
+		{
+			"name": "GET Methods",
+			"item": [
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/image/EOSR6.webp",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/image/EOSR6.webp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"image",
+								"EOSR6.webp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:4000/api/cameras/3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/cameras/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"cameras",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/image/EOSR6.webp",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/image/EOSR6.webp",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"image",
+								"EOSR6.webp"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/package",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/package",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"package"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "POST Methods",
+			"item": [
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"display\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}"
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"display\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon 850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"display\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon 850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8080/package",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/package",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"package"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:4000/api/cameras",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"EOS R10\",\r\n    \"brand\": \"Canon\",\r\n    \"category\": \"Camera foto\",\r\n    \"price\": 5000,\r\n    \"description\": \"Canon EOS R10 Aparat Foto Mirrorless 24.2MP Body\",\r\n    \"sensor_type\": \"APS-C\",\r\n    \"focus_mode\": \"Dual Pixel CMOS AF II\",\r\n    \"resolution\": \"24 Mpx\",\r\n    \"iso\": \"100-12800, H: 16000-25600\",\r\n    \"display\": \"LCD TFT color de 7,5 cm (2,95”), cu aprox. 1,04 milioane de puncte\",\r\n    \"memory_card_type\": \"SD\",\r\n    \"battery_model\": \"Baterie Li-ion LP-E17 reincarcabila\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon D850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Nikon 850\",\r\n    \"focus_mode\": \"Manual\",\r\n    \"resolution\": \"45.7 MP\",\r\n    \"iso\": \"64-25600\",\r\n    \"dispaly\": \"OLED\",\r\n    \"picture\": \"nikon_d850.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PUT Methods",
+			"item": [
+				{
+					"name": "http://localhost:8800/cameras/8",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/7",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Fujifilm X-T3\",\r\n    \"focus_mode\": \"Hybrid\",\r\n    \"resolution\": \"26.1 MP\",\r\n    \"iso\": \"160-12800\",\r\n    \"dispaly\": \"LCD\",\r\n    \"picture\": \"fujifilm_xt3.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/7",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Fujifilm X-T3\",\r\n    \"focus_mode\": \"Hybrid\",\r\n    \"resolution\": \"26.1 MP\",\r\n    \"iso\": \"160-12800\",\r\n    \"dispaly\": \"LCD\",\r\n    \"picture\": \"fujifilm_xt3.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/7",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Fujifilm X-T3\",\r\n    \"focus_mode\": \"Hybrid\",\r\n    \"resolution\": \"26.1 MP\",\r\n    \"iso\": \"160-12800\",\r\n    \"dispaly\": \"LCD\",\r\n    \"picture\": \"fujifilm_xt3.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:4000/api/cameras/3",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"EOS R100\",\r\n    \"brand\": \"Canon\",\r\n    \"category\": \"Camera foto\",\r\n    \"price\": 7000,\r\n    \"description\": \"Canon EOS R10 Aparat Foto Mirrorless 24.2MP Body 2024\",\r\n    \"sensor_type\": \"APS-C\",\r\n    \"focus_mode\": \"Dual Pixel CMOS AF II\",\r\n    \"resolution\": \"24 Mpx\",\r\n    \"iso\": \"100-12800, H: 16000-25600\",\r\n    \"display\": \"LCD TFT color de 7,5 cm (2,95”), cu aprox. 1,04 milioane de puncte\",\r\n    \"memory_card_type\": \"SD\",\r\n    \"battery_model\": \"Baterie Li-ion LP-E17 reincarcabila\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/api/cameras/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"cameras",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/7",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"model\": \"Fujifilm X-T3\",\r\n    \"focus_mode\": \"Hybrid\",\r\n    \"resolution\": \"26.1 MP\",\r\n    \"iso\": \"160-12800\",\r\n    \"dispaly\": \"LCD\",\r\n    \"picture\": \"fujifilm_xt3.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8800/cameras/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"7"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "DELETE Methods",
+			"item": [
+				{
+					"name": "http://localhost:8800/cameras/9",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"9"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/10",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:4000/api/cameras/3",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/api/cameras/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"api",
+								"cameras",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:8800/cameras/9",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8800/cameras/9",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8800",
+							"path": [
+								"cameras",
+								"9"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
